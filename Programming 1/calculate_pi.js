@@ -1,6 +1,6 @@
 // store blank variables for 2 numbers between 0 and 1; an number between 5000000
-let num0 = 0
-let num1 = 0
+let Num0 = 0
+let Num1 = 0
 let manyTimes = 0
 //store # of success times and times repeated
 let successes = 0
@@ -8,17 +8,20 @@ let repeated = 0
 
 
 //generate a random number between 5,000,000 and 1,000,000,000
-if (manyTimes <= 5000000) {
-    manyTimes = Math.floor(Math.random() * 1000000001)
+if (manyTimes <= 5000) {
+    manyTimes = Math.floor(Math.random() * 10001)
 }
 
 // todo: add new randomly generated numbers every iteration
-for (Num0 = Math.random(); Num1 = Math.random(); repeated < manyTimes)  {
-    repeated++
+while (repeated < manyTimes) {
+    num0 = Math.random()
+    num1 = Math.random()
     if (Num0**2 + Num1**2 <= 1) {
         successes++
+        repeated++
     }
 }
+
 let piIsh = 4 * successes / repeated
 console.log("We calculated pi as: " + piIsh, "and this required " + repeated, " iterations.")
 
