@@ -1,6 +1,10 @@
 
-let Num0 = .5
-let Num1 = .33
-if (Num0**2 + Num1**2 <= 1) {
-    console.log("its a yeet")
-}
+let Num0 = Math.random()
+
+/*for (let i = 0; i < 15; i++) {
+    let Num1 = Math.random()
+    console.log(Num1)
+}*/
+let Num2 = Math.random()
+console.log(Num2)
+console.log(Num2**2)
