@@ -6,11 +6,12 @@ let manyTimes = 0
 let successes = 0
 let repeated = 0
 
-// generate a random number between 0 and 5000, then add 5000
+// generate a random number between 0 and 5,000,000, then add 5,000,000
 manyTimes = Math.floor(Math.random() * 5000001)
 manyTimes += 5000000
 
 // todo: why is it still outputting 4!?!?
+// because were squaring 2 numbers that are <1, making them even smaller then adding them, so successes always == repeated
 while (repeated < manyTimes) {
     num0 = Math.random()
     num1 = Math.random()
@@ -20,12 +21,11 @@ while (repeated < manyTimes) {
     repeated++
 }
 
-let piIsh = 4
-piIsh = piIsh * successes
-piIsh = piIsh / repeated
+// actually calculate pi according to instructions
+let piIsh = (4 * successes / repeated)
+// print output to terminal
 console.log("We calculated pi as: " + piIsh, "and this required " + repeated, " iterations.")
-console.log(successes)
-console.log(repeated)
+
 /*Create 2 random numbers between 0 and 1 
 If the sum of each number squared (x2 + y2) is less than or equal to 1:
 Success
