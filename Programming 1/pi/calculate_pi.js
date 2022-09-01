@@ -1,4 +1,4 @@
-// store blank variables for 2 numbers between 0 and 1; an number between 5000000
+// store blank variables for 2 numbers between 0 and 1; and a number between 5,000,000 and 10,000,000
 let Num0 = 0
 let Num1 = 0
 let manyTimes = 0
@@ -10,11 +10,10 @@ let repeated = 0
 manyTimes = Math.floor(Math.random() * 5000001)
 manyTimes += 5000000
 
-// todo: why is it still outputting 4!?!?
-// because were squaring 2 numbers that are <1, making them even smaller then adding them, so successes always == repeated
+// while you havn't finished doing it x times, generate 2 random numbers between 0 and 1, square them and add them together, if they're less that or equal to 1 add to success
 while (repeated < manyTimes) {
-    num0 = Math.random()
-    num1 = Math.random()
+    Num0 = Math.random()
+    Num1 = Math.random()
     if (Num0**2 + Num1**2 <= 1) {
         successes++
     }
@@ -33,4 +32,4 @@ Repeat the above many times
 Pi is approximately 4 multiplied by the number of successes divided by the number of times repeated
 [repeated also means iterations]
 Print the number of repeats (iterations) and the calculated pi to the console.
-Math.pow(5, 2) == 5^2 */
+Math.pow(5, 2) == 5 ** 2 == 5 * 5 */
