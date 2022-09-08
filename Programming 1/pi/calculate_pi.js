@@ -1,6 +1,6 @@
 // store blank variables for 2 numbers between 0 and 1; and a number between 5,000,000 and 10,000,000
-let Num0 = 0
-let Num1 = 0
+let num0 = 0
+let num1 = 0
 let manyTimes = 0
 //store # of success times and times repeated
 let successes = 0
@@ -12,9 +12,9 @@ manyTimes += 5000000
 
 // while you havn't finished doing it x times, generate 2 random numbers between 0 and 1, square them and add them together, if they're less that or equal to 1 add to success
 while (repeated < manyTimes) {
-    Num0 = Math.random()
-    Num1 = Math.random()
-    if (Num0**2 + Num1**2 <= 1) {
+    num0 = Math.random()
+    num1 = Math.random()
+    if (num0**2 + num1**2 <= 1) {
         successes++
     }
     repeated++
