@@ -13,3 +13,4 @@ return (success * 4) / repeats
 }
 
 let pi = calculatePi(1000000)
+console.log(pi)
