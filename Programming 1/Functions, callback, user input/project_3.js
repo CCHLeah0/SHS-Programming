@@ -1,5 +1,5 @@
 /*
-  ↓↓↓ Ignore this code (for now) ↓↓↓
+  ↓↓↓ Ignore this code (for now) ↓↓↓ 
 */
 const readline = require('readline')
 const userInput = readline.createInterface({
@@ -10,14 +10,19 @@ const userInput = readline.createInterface({
   ↑↑↑ Ignore this code (for now) ↑↑↑
 */
 
-let usrName =  prompt("What is your name?", "User Name")
-let usrFavColor = prompt("What is your favorite color?", "ROY G BIV")
-let usrLikeCode = prompt("Do you like programming?", "yes/no")
+function handleColor(answer) {
+  console.log(answer)
 
-if (usrLikeCode == "yes") {
-    console.log("Hello, ", usrName, "Your favorite color is ", usrFavColor, ", and you like programming.")
-} else if (userLikeCode == "no") {
-    console.log("Hello, ", usrName, "Your favorite color is ", usrFavColor, ", and you don't like programming.")
-} else {
-    console.log("Hello, ", usrName, "Your favorite color is ", usrFavColor, ", and I don't know if you like programming.")
+
 }
+
+function handleName(answer) {
+  console.log('Hello ' + answer + ', it is nice to meet you.')
+
+  userInput.question('What is your favorite color? ', handleColor)
+}
+userInput.question('What is your name? ', handleName)
+
+  // use this once, at the end of your program
+  // calling userInput.question() after this will give an error
+  userInput.close()
