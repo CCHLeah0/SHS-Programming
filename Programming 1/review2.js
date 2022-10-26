@@ -89,4 +89,52 @@ Expressions - Code that evaluates to some value
   name == 'bacon'
   firstNum / secondNum
   calculatePi(1000) * radius
+If conditions / If statements -Code that runs only if a certain expression is true
+  if (expression) {
+    //this is where the code goes that only runs of expression is true
+  }
+
+  If-else statements - A way to write code that runs of the expression is false
+    if (expression) {
+
+    } else {
+        //code that only runs if expression is false
+    }
+
+    Chain together If statements by using else if
+      if (expression) {
+
+      } else if {
+        
+      }  else if {
+        
+      } else 
+
+Loops - code that repeats itself
+  For loop
+    for (expression1; expression2; expression3) {
+        // repeated code
+    }
+
+    expression1 - happens once, at the very beginning
+    expressoin2 - Evaluates every time the for loop repeat.  The for loop only repeats if this expression is true
+    expression3 - happens at the end of every repeat/iteration
+
+    for (let i = 0; i < 100; i++ ) {
+
+    }
+
+Functions 
+  function doSomething (param1, param2, param3) {
+    let something = param1 + param2 + param3
+    return something
+  }
+
+  Parameters - Identifiers that are the input of a function. Also know as arguments 
+  Return - The output value of a function
+    Functions do not need a return
+  Calling a function - Use the function, get it's output 
+    Giving values to a function (via its parameters) is called "passing"
+
+    doSomething(1, 2, 3)
 */
