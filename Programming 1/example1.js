@@ -14,12 +14,15 @@ const question = util.promisify(rl.question).bind(rl)
 
 
 async function midterm() {
+  try {
   // await question('Question goes here ')
   const noun = await question('Give me a noun: ')
 
-  
-  //  console.log('I went on a bike ride the other day, and I saw a' +noun)
+
   console.log(`I went on a bike ride the other day, and I saw a ${noun}`)
+  } catch (UnhandledPromiseRejectionWarning) {
+    console.log('yes this bug is still happening')
+  }
   // This should be the last line
   rl.close()
 }

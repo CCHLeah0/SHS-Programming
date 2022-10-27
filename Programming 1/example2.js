@@ -12,10 +12,14 @@ const rl = readline.createInterface({
 })
 const question = util.promisify(rl.question).bind(rl)
 
+
 async function midterm() {
   // Convert user input to a number
-  const number = Number(await question('Give me a number: '))
-
+  sum = 0
+  for (let i = 0; i < 5; i++) {
+    const number = Number(await question('Give me a number: ')).catch(console.log('e'))
+    sum = sum + number
+  }
   // This should be the last line
   rl.close()
 
