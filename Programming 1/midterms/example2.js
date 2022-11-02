@@ -17,7 +17,7 @@ async function midterm() {
   // Convert user input to a number
   sum = 0
   for (let i = 0; i < 5; i++) {
-    const number = Number(await question('Give me a number: ')).catch(console.log('e'))
+    const number = Number(await question('Give me a number: '))
     sum = sum + number
   }
   // This should be the last line
