@@ -1,0 +1,8 @@
+science = 0
+#open a file called G_for_science (w) or create it if it does not exist (+)
+my_file = open("G_for_science.txt","w+")
+#print the string one million times to get 1GB (1000 characters)
+while science<1000000:
+    my_file.write("this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is for science this is cor science this is for science this is for science this is for science ")
+    science = science+1
+    #run this file to generate a 1GB .txt file for testing!
