@@ -19,8 +19,21 @@ const getPromptAndChoices = (path) => {
       return {
         prompt:
           'You chose left then left. This is an example of the end of a path.',
-        end: true,
+        leftPath: 'This is the left path for the left path for the left path',
+        rightPath: 'This is the right path for the left path for the left path',
       }
+      } else if (path[2] == 'left') {
+        return {
+          prompt:
+            'You chose left then left then left.  This in an example of an end path.',
+            end: true,
+        }
+      } else if (path[2] == 'right') {
+        return {
+          prompt:
+            'You chose left then left then right.  This in an example of an end path.',
+            end: true,
+        }  
     } else if (path[1] == 'right') {
       return {
         prompt:
