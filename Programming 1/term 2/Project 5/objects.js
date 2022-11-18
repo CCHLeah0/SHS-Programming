@@ -4,4 +4,4 @@ const myObject = {
     keyNamesAreUnique: true
 }
 
-console.log(myObject.anotherKeyName)
+console.log(myObject.keyNamesAreUnique)
