@@ -1,0 +1,13 @@
+For your last project, you can decide what you want to program. Here are the rules:
+
+    Must be significant in length. If you need a guideline, then think 75 to 150 lines of code (excluding empty lines and comments), but could be less if you're good at writing compact code.
+    Must use at least one of each:
+        Array
+        Object
+        Function
+        Promise or async/await
+        Template string
+    You can add HTML if you want, but I'm only grading your .js file(s)
+    npm modules not required, but allowed
+
+I'll be grading on creativity, along with the requirements above and clean code (hint: right click and select "Format Document").
