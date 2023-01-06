@@ -1,0 +1,59 @@
+GAME: 21/Blackjack
+
+terms {
+Hit - When the player wants another card from the dealer. (See second GIF)
+
+Stand - When the player doesn’t want another card from the dealer. (See first GIF)
+
+Bust - When the player or dealer goes over 21.
+
+Push - When the dealer’s and a player’s hands are equal. (See third GIF)
+
+Split - When the player has two of the same cards. He has the option to play two hands.
+}
+
+needed items {
+1. Deck of cards not containing Jokers
+
+2. Different colored chips (Different colors will be different values)
+
+EX: White chips = $1 Red chips = $5 Blue chips = $25
+}
+
+how to play {
+1. Select a person to be the dealer
+
+2. Have the dealer shuffle the deck
+
+3. Now players have the option to bet depending on if they think they can get a higher total than the dealer without busting. If the player thinks they have a good chance of beating the dealer, they should bet more.
+
+4. Have the dealer deal two cards to each person.
+
+Note: Players’ cards should both be laid face up, dealer should have the first one laid face down and the second face up (See Second Image)
+
+5. The dealer now gives each player starting to the left of him/her self the option of taking another card or ‘hit’. They can keep taking more cards until they are satisfied and decide to stand or until they go over 21, in which case they bust.
+
+6. Once every player has gone the dealer then hits until they reach at least 17 (see soft 17 in special rules) in which case he/she has to stand (See First Image).
+}
+
+Special rules {
+Splitting: If the first two cards a player receives have the same value, the player has the option of “splitting” the cards and playing two hands. To do so the player must provide an additional bet equal to his/her original to go along with the extra hand. The dealer will then split the cards and lie an additional card on each new hand (See GIF).
+
+Doubling Down: A player may “double down” by doubling their initial bet. In order to do this they must agree to stand after receiving an additional card. To signal this place your additional bet next to your original and point at them.
+
+Soft 17: Some casino games incorporate a rule where the dealer must hit on a “soft 17”. This is when the dealer has an ace and a six.
+
+Insurance: A bet made when a player feels the dealer may have blackjack. The dealer’s up card must be an ace to make the bet. If the dealer ends up having blackjack the player gets double their insurance wager back.
+}
+
+Game end states {
+    1. If the player busts they lose all the money that they wagered (See Third GIF).
+
+2. If all players bust before the dealer’s turn, then the dealer wins automatically without needing to call for a hit.
+
+3. If the dealer busts, all the players who have not already busted receive an amount equal to double their original wager.
+
+4. A push is called when the player’s and the dealer’s hand are equal, bets are returned to the players whose hand equals to the dealer (See First GIF).
+
+5. A player who gets a hand value of 21 without calling for a hit gets 1.5 times the bet they betted. However push can still be called if the dealer has a hand value of 21 at any time. Example if one bets $10 they get their winnings of $10 plus 50% their bet for a total of $15 being given back (See Second GIF).
+}
