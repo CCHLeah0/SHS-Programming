@@ -1,0 +1,33 @@
+
+Project 6 - Choose Your Own Project
+
+    Due Jan 12, 2023 by 11:59pm Points 100 Submitting a file upload
+
+For your last project, you can decide what you want to program. Here are the rules:
+
+    Must be significant in length. If you need a guideline, then think 75 to 150 lines of code (excluding empty lines and comments), but could be less if you're good at writing compact code.
+    Must use at least one of each:
+        Array
+        Object
+        Function
+        Promise or async/await
+        Template string
+    You can add HTML if you want, but I'm only grading your .js file(s)
+    npm modules not required, but allowed
+
+I'll be grading on creativity, along with the requirements above and clean code (hint: right click and select "Format Document").
+Ideas
+
+    A calculator program that accepts user input from the terminal
+    A simple RPG battle game
+    A program that gives directions on how to solve a Rubiks cube
+    A program that accepts user input and prints ASCII art (see: https://texteditor.com/ascii-art/ 
+
+    Links to an external site.)
+    Yahtzee or some other dice game
+
+How to submit the project
+
+All work has to be in by Thursday, January 12, 2023. I will not accept anything on the last day of the semester (Friday, January 13, 2023).
+
+Upload your completed file(s) here (Canvas), after removing unnecessary comments and fixing your code to be clean and consistent.
