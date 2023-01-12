@@ -1,0 +1,4 @@
+make dealer have a 'hand' with remaining deck (to solve issue of how to tell whats left)
+
+later (maybe):
+create new bot players based on user wanted opponents
