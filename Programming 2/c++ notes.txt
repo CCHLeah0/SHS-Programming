@@ -15,3 +15,9 @@ functions have to be declared with double so it has double precision (double mak
 data type of variables can be changed constantly (JS makes you say if x can be changed or not, in C++ can change is the default option)
 variable data type must be declared before the variable
 you cant operate on different data types (int*float doesn't work)
+must use double quotes for strings ie "this is a string"
+  single quotes can only hold 1 character 'n'
+endl creates return symbol (inserts endline character)
+  "\n" does the same thing as endl 
+every C++ code has to start with int main(), which is the whole program wrapped in a function
+  they end with return 0, return 1 would keep it going? not sure of use case
