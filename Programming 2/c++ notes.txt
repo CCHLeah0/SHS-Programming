@@ -1,0 +1,17 @@
+C++, controlled by rules counsel
+high level, compiled, strongly typed
+(easier to understand for people)
+compiled vs interpreted:
+- interpreted
+  - executed line by line using precompiled bytecode
+  - generally larger programs 
+  - generally slower?
+- compiled
+  - C++ (.cpp and .h files) -> handed to Compiler (MicroSoftVisualCode), which makes a .exe file, which contains low-level machine instructions -> execute.exe
+you must declare data types 
+semi colon seperates statements (you could in theory write it all in one line if you are Satan)
+have to state datatype of parameter for functions
+functions have to be declared with double so it has double precision (double makes it run at 32*2 bits)
+data type of variables can be changed constantly (JS makes you say if x can be changed or not, in C++ can change is the default option)
+variable data type must be declared before the variable
+you cant operate on different data types (int*float doesn't work)
